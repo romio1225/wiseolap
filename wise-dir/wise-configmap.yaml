@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm-wiseolap
+  namespace: hyperdata
+data:
+  TB_IP: "13.209.213.230"
+  TB_PORT: "31957"
+  HD_PORT: "32499"
+  WISE_MIN_MEM: "1024"
+  WISE_MAX_MEM: "1024"
